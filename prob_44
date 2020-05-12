@@ -1,0 +1,6 @@
+DECLARE @n INT = 1
+WHILE @n <= 20
+BEGIN
+PRINT REPLICATE ('* ', @n)
+SET @n = @n + 1
+END;
